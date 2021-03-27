@@ -1,0 +1,169 @@
+h1 {
+  font-size: 70px !important;
+  color: #ffa826;
+  margin-bottom: 0px !important;
+}
+
+h3 {
+  font-size: 15px !important;
+  color: #42a5f5;
+}
+
+.buttonIn {
+  position: relative;
+}
+
+input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  border-radius: 10px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  height: 30px;
+  cursor: pointer;
+  transform: translateX(2px);
+  padding: 0 !important;
+}
+
+.caixaExterior {
+  border: 3px solid #42a5f5;
+}
+
+.icon {
+  font-size: 40px;
+  position: relative;
+  top: 12px;
+  color: #ffa826;
+}
+
+.form-control {
+  border: 1px #ced4da !important;
+  color: #ffa826 !important;
+}
+
+.lupa {
+  font-size: 20px;
+  color: #42a5f5;
+  position: relative;
+}
+
+.searchBox {
+  border: 3px solid #42a5f5;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.bottom {
+  padding: 30px;
+}
+
+.form-main {
+  padding: 30px;
+}
+
+.middle {
+  background-color: #ffdba5;
+  padding: 40px 30px;
+}
+
+.headerMiddle {
+  padding: 0 30px;
+}
+
+img {
+  width: 50%;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.temperature {
+  color: #ffa826;
+  font-size: 70px;
+  margin: 0px !important;
+  position: relative;
+  font-weight: 600;
+}
+
+.degrees {
+  color: #42a5f5;
+  font-size: 15px;
+  top: 0px;
+  position: absolute;
+  top: 25px;
+  font-weight: 600;
+}
+
+.day {
+  color: #ffa826;
+  font-size: 40px;
+}
+
+.hours {
+  color: #42a5f5;
+  font-size: 40px;
+}
+
+.fa-cloud-sun {
+  color: #42a5f5 !important;
+}
+
+.otherInfos {
+  color: #42a5f5;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.smallDays {
+  color: #ffa826;
+  font-size: 15px;
+  text-align: center;
+}
+
+.circle {
+  border: 4px solid #d9edfe;
+  border-radius: 300px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  background-color: #f7fbff;
+}
+
+.temperatureSmall {
+  margin: 0 !important;
+  font-size: 10px;
+}
+
+.info-temperature {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.precipitation {
+  margin: 0 !important;
+}
+
+.totalDate {
+  display: flex;
+}
+
+.searchBox {
+  display: flex;
+}
