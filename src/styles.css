@@ -82,14 +82,16 @@ button {
 }
 
 img {
-  width: 50%;
+  width: 40%;
   position: absolute;
-  right: 30px;
-  top: 50px;
+  left: 600px;
+  top: 20px;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
+  max-width: 950px;
+  margin: 0 auto !important;
 }
 
 .temperature {
