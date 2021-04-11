@@ -1,6 +1,6 @@
 h1 {
   font-size: 70px !important;
-  color: #ffa826;
+  color: #ec6e4c;
   margin-bottom: 0px !important;
 }
 
@@ -44,12 +44,12 @@ button {
   font-size: 40px;
   position: relative;
   top: 12px;
-  color: #ffa826;
+  color: #ec6e4c;
 }
 
 .form-control {
   border: 1px #ced4da !important;
-  color: #ffa826 !important;
+  color: #ec6e4c !important;
 }
 
 .lupa {
@@ -81,7 +81,7 @@ button {
   padding: 0 30px;
 }
 
-img {
+.bigImage {
   width: 40%;
   position: absolute;
   left: 600px;
@@ -95,7 +95,7 @@ body {
 }
 
 .temperature {
-  color: #ffa826;
+  color: #ec6e4c;
   font-size: 70px;
   margin: 0px !important;
   position: relative;
@@ -112,7 +112,7 @@ body {
 }
 
 .day {
-  color: #ffa826;
+  color: #ec6e4c;
   font-size: 40px;
 }
 
@@ -132,7 +132,7 @@ body {
 }
 
 .smallDays {
-  color: #ffa826;
+  color: #ec6e4c;
   font-size: 15px;
   text-align: center;
 }
