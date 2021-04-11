@@ -14,6 +14,14 @@ function formatDate(date) {
 
   let dateHour = document.querySelector(".hours");
   dateHour.innerHTML = formattedHours;
+
+  if (currentMinutes < 10) {
+    currentMinutes = `0${currentMinutes}`;
+  }
+
+   if (currentHour < 10) {
+    currentHour = `0${currentHour}`;
+  }
 }
 
 formatDate(now);

@@ -2,6 +2,7 @@ h1 {
   font-size: 70px !important;
   color: #ec6e4c;
   margin-bottom: 0px !important;
+  text-transform: uppercase;
 }
 
 h3 {
