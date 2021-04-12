@@ -46,28 +46,39 @@ function searchUp(event) {
 let form = document.querySelector("form");
 form.addEventListener("submit", searchUp);
 
+function formatDay (timestamp) {
+
+let date = new Date(timestamp * 1000);
+let day = date.getDay();
+
+let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+return days[day];
+}
+
 function displayForecast(response) {
 
-        console.log(response.data.daily);
+        let forecast = response.data.daily;
         let forecastElement = document.querySelector("#forecast");
         
         let forecastHTML = `<div class="row row-small-days">`;
 
         let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-        days.forEach(function (day) {
+        forecast.forEach(function (forecastDay, index) {
+
+          if (index < 6) {
 
           forecastHTML = forecastHTML + `
               <div class="day-week">
-              <p>${day}</p>
+              <p>${formatDay (forecastDay.dt)}</p>
               <div class="circle">
                   <div class="info-temperature">
-                      <p class="temperatureSmall" id="TempMon"><span>22ºC</span> <span>13ºC</span></p>
+                      <p class="temperatureSmall" id="TempMon"><span> ${Math.round(forecastDay.temp.max)}ºC </span> <span>${Math.round(forecastDay.temp.min)}ºC</span></p>
                   </div>
               </div>
-              <img src="http://openweathermap.org/img/wn/10d@2x.png" class="fas fa-cloud-sun"></img>
+              <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" class="fas fa-cloud-sun"></img>
               </div>
-              `;
-
+              `; }
               
         });
 
