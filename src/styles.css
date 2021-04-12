@@ -172,3 +172,15 @@ body {
 .searchBox {
   display: flex;
 }
+
+.display-flex {
+  display: flex;
+}
+
+.row-small-days {
+  display: flex;
+}
+
+.day-week {
+  width: fit-content !important;
+}
